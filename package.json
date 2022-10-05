@@ -1,5 +1,5 @@
 {
-  "name": "@cardinal/token-manager",
+  "name": "@nazaire/cardinal-token-manager",
   "version": "1.6.0",
   "description": "Cardinal token manager SDK",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "repository": "git@github.com:cardinal-labs/cardinal-token-manager.git",
+  "repository": "https://github.com/Nazaire/cardinal-token-manager.git",
   "author": "Jeremy Bogle <jeremy@cardinal.so>",
   "bugs": {
     "url": "https://github.com/cardinal-labs/cardinal-token-manager/issues",
@@ -73,7 +73,8 @@
     "@types/bn.js": "^5.1.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist/",

@@ -61,5 +61,5 @@ export enum TokenManagerState {
 }
 
 export const CRANK_KEY = new PublicKey(
-  "crkdpVWjHWdggGgBuSyAqSmZUmAjYLzD435tcLDRLXr"
+  "ETkrpM1XPWhM4qb1KN4gYdzQNbFWDvgAMtDVwAGkqEvQ"
 );
