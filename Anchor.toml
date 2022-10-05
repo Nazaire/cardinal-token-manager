@@ -4,9 +4,13 @@ solana_version = "1.9.13"
 [scripts]
 test = "yarn mocha tests/*.spec.ts"
 
+# [provider]
+# cluster = "localnet"
+# wallet = "./tests/test-key.json" # twLqUrEvBPdtWFusa4MSWqkyE7TyhJTv3xBXiLYUNcX
+
 [provider]
-cluster = "localnet"
-wallet = "./tests/test-key.json" # twLqUrEvBPdtWFusa4MSWqkyE7TyhJTv3xBXiLYUNcX
+cluster = "devnet"
+wallet = "./local/keys/authority_8EAcZrXUaJZoByMHBC3Kh913hizxJAJkjX3NsLx1g9Ft.json"
 
 [programs.mainnet]
 cardinal_token_manager = "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e"
