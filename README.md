@@ -30,11 +30,11 @@ The Token Manager program is a wrapper protocol that achieves conditional owners
 
 Program addresses are the same on devnet, testnet, and mainnet-beta.
 
-- TokenManager: [`mgr99QFMYByTqGPWmNqunV7vBLmWWXdSrHUfV8Jf3JM`](https://explorer.solana.com/address/mgr99QFMYByTqGPWmNqunV7vBLmWWXdSrHUfV8Jf3JM)
-- PaidClaimApprover: [`pcaBwhJ1YHp7UDA7HASpQsRUmUNwzgYaLQto2kSj1fR`](https://explorer.solana.com/address/pcaBwhJ1YHp7UDA7HASpQsRUmUNwzgYaLQto2kSj1fR)
-- TimeInvalidator: [`tmeEDp1RgoDtZFtx6qod3HkbQmv9LMe36uqKVvsLTDE`](https://explorer.solana.com/address/tmeEDp1RgoDtZFtx6qod3HkbQmv9LMe36uqKVvsLTDE)
-- UseInvalidator: [`useZ65tbyvWpdYCLDJaegGK34Lnsi8S3jZdwx8122qp`](https://explorer.solana.com/address/useZ65tbyvWpdYCLDJaegGK34Lnsi8S3jZdwx8122qp)
-- PaymentManager: [`pmvYY6Wgvpe3DEj3UX1FcRpMx43sMLYLJrFTVGcqpdn`](https://explorer.solana.com/address/pmvYY6Wgvpe3DEj3UX1FcRpMx43sMLYLJrFTVGcqpdn)
+- TokenManager: [`9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e`](https://explorer.solana.com/address/9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e)
+- PaidClaimApprover: [`4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n`](https://explorer.solana.com/address/4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n)
+- TimeInvalidator: [`4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8`](https://explorer.solana.com/address/4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8)
+- UseInvalidator: [`CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo`](https://explorer.solana.com/address/CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo)
+- PaymentManager: [`9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB`](https://explorer.solana.com/address/9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB)
 
 ## Plugins
 
