@@ -38,7 +38,7 @@ jobs:
           anchor_version: ${{ env.ANCHOR_VERSION }}
 
       # Restore Cache from previous build/test
-      - uses: actions/cache@v3
+      - uses: actions/cache@v3.0.11
         with:
           path: |
             ~/.cargo/bin/
