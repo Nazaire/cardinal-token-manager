@@ -116,11 +116,11 @@ jobs:
       - name: Setup
         run: mkdir -p target/deploy
       - run: cp -r tests/test-keypairs/* target/deploy
-      - run: find . -type f -name "*" -exec sed -i'' -e "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e(solana-keygen pubkey tests/test-keypairs/cardinal_token_manager-keypair.json)/g" {} +
-      - run: find . -type f -name "*" -exec sed -i'' -e "s/4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n/$(solana-keygen pubkey tests/test-keypairs/cardinal_paid_claim_approver-keypair.json)/g" {} +
-      - run: find . -type f -name "*" -exec sed -i'' -e "s/4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8/$(solana-keygen pubkey tests/test-keypairs/cardinal_time_invalidator-keypair.json)/g" {} +
-      - run: find . -type f -name "*" -exec sed -i'' -e "s/CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo/$(solana-keygen pubkey tests/test-keypairs/cardinal_use_invalidator-keypair.json)/g" {} +
-      - run: find . -type f -name "*" -exec sed -i'' -e "s/9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB/$(solana-keygen pubkey tests/test-keypairs/cardinal_payment_manager-keypair.json)/g" {} +
+      - run: find . -type f -name "*" -exec sed -i'' -e "39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK(solana-keygen pubkey tests/test-keypairs/cardinal_token_manager-keypair.json)/g" {} +
+      - run: find . -type f -name "*" -exec sed -i'' -e "s/3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L/$(solana-keygen pubkey tests/test-keypairs/cardinal_paid_claim_approver-keypair.json)/g" {} +
+      - run: find . -type f -name "*" -exec sed -i'' -e "s/AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck/$(solana-keygen pubkey tests/test-keypairs/cardinal_time_invalidator-keypair.json)/g" {} +
+      - run: find . -type f -name "*" -exec sed -i'' -e "s/Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R/$(solana-keygen pubkey tests/test-keypairs/cardinal_use_invalidator-keypair.json)/g" {} +
+      - run: find . -type f -name "*" -exec sed -i'' -e "s/Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu/$(solana-keygen pubkey tests/test-keypairs/cardinal_payment_manager-keypair.json)/g" {} +
       - run: find . -type f -name "Anchor.toml" -exec sed -i'' -e "s/tests\/\*.spec.ts/tests\/\*.spec.ts --reporter mocha-junit-reporter --reporter-options mochaFile=.\/tests\/out.xml/g" {} +
 
       - name: Run tests

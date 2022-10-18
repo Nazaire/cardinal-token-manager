@@ -10,32 +10,32 @@ test = "yarn mocha tests/*.spec.ts"
 
 [provider]
 cluster = "devnet"
-wallet = "./local/keys/authority_8EAcZrXUaJZoByMHBC3Kh913hizxJAJkjX3NsLx1g9Ft.json"
+wallet = "./local/keys/authority_6QSBsLf29rAghS4y1Sc7fbZRp8xhVEKipfD4msnnrzo2.json"
 
 [programs.mainnet]
-cardinal_token_manager = "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e"
-cardinal_paid_claim_approver = "9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB"
-cardinal_time_invalidator = "4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8"
-cardinal_use_invalidator = "CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo"
-cardinal_payment_manager = '4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n'
+cardinal_token_manager = "39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK"
+cardinal_paid_claim_approver = "Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu"
+cardinal_time_invalidator = "AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck"
+cardinal_use_invalidator = "Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R"
+cardinal_payment_manager = '3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L'
 
 [programs.devnet]
-cardinal_token_manager = "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e"
-cardinal_paid_claim_approver = "9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB"
-cardinal_time_invalidator = "4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8"
-cardinal_use_invalidator = "CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo"
-cardinal_payment_manager = '4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n'
+cardinal_token_manager = "39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK"
+cardinal_paid_claim_approver = "Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu"
+cardinal_time_invalidator = "AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck"
+cardinal_use_invalidator = "Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R"
+cardinal_payment_manager = '3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L'
 
 [programs.testnet]
-cardinal_token_manager = "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e"
-cardinal_paid_claim_approver = "9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB"
-cardinal_time_invalidator = "4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8"
-cardinal_use_invalidator = "CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo"
-cardinal_payment_manager = '4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n'
+cardinal_token_manager = "39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK"
+cardinal_paid_claim_approver = "Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu"
+cardinal_time_invalidator = "AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck"
+cardinal_use_invalidator = "Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R"
+cardinal_payment_manager = '3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L'
 
 [programs.localnet]
-cardinal_token_manager = "9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e"
-cardinal_paid_claim_approver = "9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB"
-cardinal_time_invalidator = "4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8"
-cardinal_use_invalidator = "CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo"
-cardinal_payment_manager = '4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n'
+cardinal_token_manager = "39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK"
+cardinal_paid_claim_approver = "Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu"
+cardinal_time_invalidator = "AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck"
+cardinal_use_invalidator = "Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R"
+cardinal_payment_manager = '3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L'

@@ -11,6 +11,14 @@
     An open protocol for issuing managed tokens on Solana.
 </p>
 
+## Deployment
+
+1. First deployment
+   `anchor deploy --program-name cardinal-token-manager`
+
+2. Upgrading  
+   `anchor upgrade --program-id $PROGRAM_ID target/deploy/cardinal_token_manager.so`
+
 ## Background
 
 The Token Manager program is a wrapper protocol that achieves conditional ownership of Solana NFTs. It allows one to issue an NFT to another party with embedded mechanisms for programmatic management of the token while it sits in their wallet. Among others, things like time-based expiration, usage-based expiration, selective transferability, and non-transferability are possible with the Token Manager. Its modular design uses “plugin” invalidators, approval authorities, and transfer authorities modeled as separate smart contracts to allow for theoretically any custom invalidation, claiming, and transfer logic tied to on-chain data. We currently offer two out-of-the-box invalidator plugins to support basic time and usage-based expiration as well as a basic payment-based claim approver.
@@ -30,11 +38,11 @@ The Token Manager program is a wrapper protocol that achieves conditional owners
 
 Program addresses are the same on devnet, testnet, and mainnet-beta.
 
-- TokenManager: [`9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e`](https://explorer.solana.com/address/9WDgSgB9S54ui97UfY2shegJ764ScgwjDRLEhqLYS3e)
-- PaidClaimApprover: [`4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n`](https://explorer.solana.com/address/4nYmFoLLdYiHhceqWWaF2Hjmx2TUWg4FQQfYpWCMmg5n)
-- TimeInvalidator: [`4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8`](https://explorer.solana.com/address/4SXNGLfQVMxrTJdJNArtfCM14grtzseH7ja8dMHCJpf8)
-- UseInvalidator: [`CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo`](https://explorer.solana.com/address/CrqZJ1frYpEvmJDR4zKpJNicrPDNwKKUKevetmk7Eajo)
-- PaymentManager: [`9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB`](https://explorer.solana.com/address/9ekqCtEXJVRU5jdGxknES8Rs4nwF8g9ETagDtGUVAvTB)
+- TokenManager: [`39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK`](https://explorer.solana.com/address/39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK)
+- PaidClaimApprover: [`3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L`](https://explorer.solana.com/address/3GT5Q6wwXwfDUcMAn6h4XCtmqSVFLp9eL7WQjKshNK3L)
+- TimeInvalidator: [`AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck`](https://explorer.solana.com/address/AmoML37av2K7Cn4p5s2uYvdftC6v47RQveaAD1vPEGck)
+- UseInvalidator: [`Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R`](https://explorer.solana.com/address/Ea82cLwGjJgFNwvNqKW3bBHBefWmN2n36C7roQMeiY7R)
+- PaymentManager: [`Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu`](https://explorer.solana.com/address/Hv6ppuT2mvHjgpSQVuQnvT4hUTLjr1XgrqKyVbqzWRpu)
 
 ## Plugins
 
