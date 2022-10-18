@@ -17,7 +17,7 @@
    `anchor deploy --program-name cardinal-token-manager`
 
 2. Upgrading  
-   `anchor upgrade --program-id $PROGRAM_ID target/deploy/cardinal_token_manager.so`
+   `anchor upgrade --program-id 39xubSermwXqcSPu2qEHSspGVmsVZYBnA8RbFqhMLbFK target/deploy/cardinal_token_manager.so`
 
 ## Background
 
